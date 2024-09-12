@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--color-dark);
+    background: hsl(252, 30%, 95%);
+    overflow-x: hidden;
+}
+
+.login{
+    border: 1px solid black;
+    width: 350px;
+    margin: 2rem auto 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.login .instagram-link{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.login .input-container input{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+    margin-top: 0.4rem;
+    border-radius: 0.2rem;
+    padding: 10px 5px;
+    border: 0.5px solid black;
+}
+
+.login .login-btn{
+    background: #4cb5f9;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 0.5rem;
+    text-align: center;
+    border: none;
+    padding: 7px;
+    border-radius: 0.5rem;
+}
+
+.login legend{
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.login fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+.links img{
+    margin-right: 1rem;
+}
+
+.forgotpass{
+    margin: 1.5rem 0;
+}
+
+.noacc{
+    border: 1px solid black;
+    width: 350px;
+    margin: 1rem auto 0 auto;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
